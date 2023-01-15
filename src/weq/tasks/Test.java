@@ -8,6 +8,5 @@ public class Test {
 		LocalDate now = LocalDate.now();
 		LocalDate date = LocalDate.of(2023, 6, 8);
 		Period p = Period.between(now, date);
-		System.out.println("ok");
 	}
 }
